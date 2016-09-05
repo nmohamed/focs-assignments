@@ -4,8 +4,7 @@
 ;;;
 ;;; Check one:
 ;;; [ ] I completed this assignment without assistance or external resources.
-;;; [ ] I completed this assignment with assistance from ___
-;;;     and/or using these external resources: ___
+;;; [x] I completed this assignment using these external resources: racket documentation
 
 ;;     NOTE:  You need not worry about error checking in the programs below.
 
