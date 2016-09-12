@@ -22,6 +22,8 @@
 
         [(eq? op 'AND) (and arg1 arg2)] ; return boolean
         [(eq? op 'OR) (or arg1 arg2)]
+
+        [else (error "Invalid:" op)]
   )
 )
 
