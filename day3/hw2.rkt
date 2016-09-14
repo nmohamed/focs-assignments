@@ -48,10 +48,6 @@
   		)
 )
 
-; take first argument. apply it to second and third.
-; if second and/or third are lists, take first argument of list and appl.
-; 
-
 (calculate '(ADD 3 4)) ;; --> 7
 
 ;;; 2. Expand the calculator's operation to allow for arguments that are themselves well-formed arithmetic expressions.
