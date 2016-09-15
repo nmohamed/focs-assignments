@@ -44,7 +44,7 @@
 	  		)
 	  	)
   		; else
-  		(#%app + 0 lst) ; it really wants a procedure here...
+  		lst
   		)
 )
 
