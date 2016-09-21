@@ -10,6 +10,8 @@
 
 [prob2.jiff](2.jff)
 
+**Starting state**, *ending state(s)*
+
 Nondeterministic:
 
 |   | `0` | `1` |
@@ -51,6 +53,7 @@ Yes it would be more complex. There are more possible inputs, meaning there are 
 
 ## 4. [*] Challenge: Reverse
 ![4](prob4.png)
+
 You would have to reverse everything in your machine. The start becomes the finish, and the end becomes the start. You also have to reverse the direction that every arrow is pointing.
 
 ## 5. Reading
