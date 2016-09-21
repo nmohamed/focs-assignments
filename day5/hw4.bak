@@ -1,5 +1,6 @@
 #lang racket
 
+<<<<<<< HEAD
 ;;; Student Name: Nora Mohamed
 ;;;
 ;;; Check one:
@@ -166,3 +167,11 @@
 ; >(DEFINE test (LAMBDA (a b) (ADD a b)))
 ; >(test 1 2)
 ; 3
+=======
+;;; Student Name: Frankly Olin [change to your name]
+;;;
+;;; Check one:
+;;; [ ] I completed this assignment without assistance or external resources.
+;;; [ ] I completed this assignment with assistance from ___
+;;;     and/or using these external resources: ___
+>>>>>>> bdd21fd2972d2d6f5a504ad5d38befa7c59e5706

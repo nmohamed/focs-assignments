@@ -1,0 +1,1 @@
+3. If trying to do the same thing as in #2 here, where you want any substring of abaa, then you have the exact same amount of states for both a deterministic and non-deterministic automata.
