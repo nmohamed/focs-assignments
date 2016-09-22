@@ -51,3 +51,25 @@ Learn about [character classes](https://regexone.com/lesson/letters_and_digits) 
 Which of these are just notational conveniences, like `[abc]` for `(a|b|c)`?
 
 Which increase the power of regular expressions?
+
+
+## SOLUTIONS
+
+### 1.
+a. 01(11)\*0
+b. 0\*10\*
+c. 1\*
+
+### 2.
+`(` is `a`, `)` is `b`
+
+a. (ab)\* or ab(ab)\*, depending on if ` ` is a valid string
+b. (a(ab)\*b)\*
+c. (a(a(ab)\*b)\*b)\*
+
+### 3.
+a. 0\*1(0\*10\*10\*)\*
+b. 1\*(1\*01\*01\*)\*
+c.
+
+
