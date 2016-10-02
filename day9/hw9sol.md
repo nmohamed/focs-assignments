@@ -6,39 +6,56 @@ Nora Mohamed
 Done
 
 # 2
-a.
+
+**a.**
 
 ({S}, {0,1}, P, S) where 
+
 P: S -> 0P0 | 1P1 | ε
-* S -> 0P0 -> 01P10 -> 010P010 -> input ε -> 010010
+
+Example derivation: S -> 0P0 -> 01P10 -> 010P010 -> input ε -> 010010
 
 
-b.
+**b.**
 
 ({S, D, G}, {a, b, c}, P, S) where 
+
 P: S-> DG
+
 D -> aDb | ε
+
 G -> cG | ε
 
-c.
+**c.**
 
 ({S, D, G}, {a, b, c}, P, S) where 
+
 P: S-> GD
+
 D -> bDc | ε
+
 G -> aG | ε
 
-d.
+**d.**
 
 ({S, D}, {a, b}, P, S) where 
+
 P: S-> G
+
 G -> abG | ε
 
+**OR**
+
 ({S, D}, {a, b}, P, S) where 
+
 P: S-> G
+
 G -> Gab | ε
 
 # 3
 
-a. S -> aS -> aaSbS -> aab **OR** S -> aSbS -> aaSb -> aab
-b. S -> aS -> aaSbS -> aabS -> aab **OR** S -> aSbS -> aaSbS -> aabS -> aab
-c. S -> aS -> aaSbS -> aaSb -> aab **OR** S -> aSbS -> aSb -> aaSb -> aab
+**a.** S -> aS -> aaSbS -> aab **OR** S -> aSbS -> aaSb -> aab
+
+**b.** S -> aS -> aaSbS -> aabS -> aab **OR** S -> aSbS -> aaSbS -> aabS -> aab
+
+**c.** S -> aS -> aaSbS -> aaSb -> aab **OR** S -> aSbS -> aSb -> aaSb -> aab
