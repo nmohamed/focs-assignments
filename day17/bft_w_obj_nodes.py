@@ -8,7 +8,7 @@ Date   : 2016-10-27
 License: MIT License
 """
 
-from queue import Queue
+from Queue import Queue
 
 
 class Graph(object):
@@ -42,6 +42,8 @@ class Node(object):
 
     def __init__(self, label):
         self.label = label
+        self.parent = None
+        self.distance = None
 
     def __repr__(self):
         return self.label
@@ -50,18 +52,34 @@ class Node(object):
 def bfs(graph, start):
     remaining_nodes = Queue()
     visited = set()
+    nodes_with_parents = []
 
     def visit(node):
         print(node)
         visited.add(node)
         for tail in graph.successors(node):
             if tail not in visited:
+                tail.parent = node
+                tail.distance = find_distance_to_root(tail)
+                nodes_with_parents.append(tail)
                 remaining_nodes.put(tail)
+
+    def find_distance_to_root(node):
+        distance = 0
+        while node.parent != None:
+            node = node.parent
+            distance += 1
+        return distance
 
     remaining_nodes.put(start)
     while not remaining_nodes.empty():
         n = remaining_nodes.get()
         visit(n)
+
+    # internal nodes/leaves of spanning tree. pick any node and go up parents
+    print(nodes_with_parents)
+    print(nodes_with_parents[0].parent)
+    print(nodes_with_parents[0].distance)
 
 
 def node_and_edge_labels_to_objects(node_labels, edge_labels):
